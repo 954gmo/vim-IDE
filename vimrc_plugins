@@ -1,0 +1,49 @@
+" ------------------------------------------------------------
+" Load plugins
+" ------------------------------------------------------------
+
+set nocompatible
+filetype off
+
+" Set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+
+" Plugins will be downloaded under the specified directory.
+call vundle#begin('~/.vim/plugged')
+
+" Let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" Colorschemes
+Plugin 'kristijanhusak/vim-hybrid-material'
+Plugin 'cocopon/iceberg.vim'
+Plugin 'arcticicestudio/nord-vim'
+Plugin 'sjl/badwolf'
+Plugin 'scheakur/vim-scheakur'
+Plugin 'lifepillar/vim-solarized8'
+Plugin 'Badacadabra/vim-archery'
+
+" PloyGlot
+Plugin 'sheerun/vim-polyglot'
+
+" Auto Pairs
+Plugin 'jiangmiao/auto-pairs'   " Auto Pairs
+
+" NERDTree
+Plugin 'preservim/nerdtree'
+
+" Tagbar
+Plugin 'preservim/tagbar'
+
+" ctrlsf.vim 
+Plugin'dyng/ctrlsf.vim'
+
+" vim-fswitch
+Plugin 'derekwyatt/vim-fswitch'
+
+" vim-protodef 
+Plugin 'derekwyatt/vim-protodef'
+
+" List ends here. Plugins become visible to Vim after this call.
+call vundle#end()
+filetype plugin indent on

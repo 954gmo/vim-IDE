@@ -19,6 +19,7 @@ Plugin 'kristijanhusak/vim-hybrid-material'
 Plugin 'cocopon/iceberg.vim'
 Plugin 'arcticicestudio/nord-vim'
 Plugin 'sjl/badwolf'
+Plugin 'scheakur/vim-scheakur'
 Plugin 'lifepillar/vim-solarized8'
 Plugin 'Badacadabra/vim-archery'
 
