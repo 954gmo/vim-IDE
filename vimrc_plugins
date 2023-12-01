@@ -46,6 +46,9 @@ Plugin 'derekwyatt/vim-protodef'
 
 " YOU complete me"
 Plugin 'ycm-core/YouCompleteMe'
+
+Plugin 'tpope/vim-commentary'
+
 " List ends here. Plugins become visible to Vim after this call.
 call vundle#end()
 filetype plugin indent on
