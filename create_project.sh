@@ -4,6 +4,7 @@ DEBUG_PATH=$1/debug
 RELEASE_PATH=$1/release
 
 mkdir -p $1/src $1/config $1/include  $1/gtests $1/lib \
+        $1/file_tempaltes $1/scripts \
         ${DEBUG_PATH}/bin ${DEBUG_PATH}/build \
         ${RELEASE_PATH}/bin ${RELEASE_PATH}/build 
 
@@ -56,4 +57,4 @@ cat <<EOT >>$1/.gitignore
 ${DEBUG_PATH}
 ${RELEASE_PATH}
 EOT
-git init
+cd $1 && git init
